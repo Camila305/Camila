@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Camila - Álbum IGOR</title>
+  <title>Camila – Álbum IGOR</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <h1>Camila apresenta: <a href="https://pt.wikipedia.org/wiki/Tyler,_The_Creator" target="_blank">Tyler, The Creator</a></h1>
-    <p>Conheça um pouco do universo musical de Tyler, The Creator. Seus álbuns exploram amor, identidade, experimentação sonora e muita criatividade.</p>
-    <div class="tags">
-      <span>Hip Hop</span>
-      <span>Neo Soul</span>
-      <span>R&B</span>
-      <span>Exclusivo</span>
-    </div>
-  </header>
+  <div class="wrap">
+    <header>
+      <h1>Camila apresenta: <span class="highlight">Tyler, The Creator</span></h1>
+      <p>Conheça um pouco do universo musical de Tyler, The Creator. Seus álbuns exploram amor, identidade, experimentação sonora e muita criatividade.</p>
+      <div class="badges">
+        <span class="badge">Hip Hop</span>
+        <span class="badge">Neo Soul</span>
+        <span class="badge">R&B</span>
+        <span class="badge">Funk</span>
+      </div>
+      <img class="cover" src="imagens/igor-cover.jpg" alt="Capa do álbum IGOR">
+    </header>
 
-  <main>
-    <section class="album">
-      <h2>Álbum IGOR</h2>
-      <img src="imagens/igor-cover.jpg" alt="Capa do álbum IGOR" class="cover">
-      <ul>
-        <li>
-          <img src="imagens/igor-1.jpg" alt="Faixa IGOR do álbum IGOR">
-          <p>EARFQUAKE</p>
-        </li>
-        <li>
-          <img src="imagens/igor-2.jpg" alt="Faixa ARE WE STILL FRIENDS? do álbum IGOR">
-          <p>ARE WE STILL FRIENDS?</p>
-        </li>
-        <li>
-          <img src="imagens/igor-3.jpg" alt="Faixa I THINK do álbum IGOR">
-          <p>I THINK</p>
-        </li>
-      </ul>
-    </section>
-  </main>
+    <main>
+      <h2>Faixas em destaque – IGOR</h2>
+      <section class="grid">
+        <article class="card">
+          <img class="thumb" src="imagens/igor-1.jpg" alt="EARFQUAKE – Tyler, The Creator">
+          <div class="info">
+            <h3 class="title">EARFQUAKE</h3>
+            <p class="subtitle">Hit melódico e marcante do álbum.</p>
+          </div>
+        </article>
 
-  <footer>
-    <p>© 2025 | Página criada por Camila 🎶</p>
-  </footer>
+        <article class="card">
+          <img class="thumb" src="imagens/igor-2.jpg" alt="ARE WE STILL FRIENDS? – Tyler, The Creator">
+          <div class="info">
+            <h3 class="title">ARE WE STILL FRIENDS?</h3>
+            <p class="subtitle">Fechamento emocional com soul forte.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="thumb" src="imagens/igor-3.jpg" alt="I THINK – Tyler, The Creator">
+          <div class="info">
+            <h3 class="title">I THINK</h3>
+            <p class="subtitle">Soul + funk falando de desejo e dúvida.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 | Página criada por Camila 🎶</p>
+    </footer>
+  </div>
 </body>
-
 </html>
