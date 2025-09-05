@@ -1,164 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Camila - Tyler, The Creator</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    /* ==========================
-       Estilos gerais
-    ========================== */
-    body {
-      font-family: 'Arial', sans-serif;
-      background-color: #fafafa;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* ==========================
-       Cabeçalho
-    ========================== */
-    header {
-      background: linear-gradient(135deg, #f5f5f5, #eaeaea);
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.2rem;
-      margin-top: 15px;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      color: #555;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    /* ==========================
-       Cards de faixas
-    ========================== */
-    .card {
-      border: none;
-      border-radius: 15px;
-      overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .card img {
-      border-bottom: 2px solid #ddd;
-      object-fit: cover;
-      height: 250px;
-    }
-
-    .card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .card-title {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #222;
-    }
-
-    .card-text {
-      font-size: 0.95rem;
-      color: #555;
-    }
-
-    /* ==========================
-       Seção principal
-    ========================== */
-    main h2 {
-      font-size: 1.8rem;
-      font-weight: bold;
-      margin-bottom: 30px;
-    }
-
-    /* ==========================
-       Responsividade
-    ========================== */
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-
-      .card img {
-        height: 200px;
-      }
-    }
-  </style>
+  <title>Camila apresenta: Tyler, The Creator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- Cabeçalho -->
-  <header class="container text-center py-5">
-    <img src="imagens/igor-cover.jpg" alt="Capa do álbum IGOR"
-      class="rounded shadow-lg mb-4" width="220" height="220">
-    <h1 class="fw-bold">Camila apresenta: <span class="text-primary">Tyler, The Creator</span></h1>
-    <p class="lead">
-      Conheça um pouco do universo musical de Tyler, The Creator. Seus álbuns exploram amor,
-      identidade, experimentação sonora e muita criatividade.
+  <header>
+    <img src="imagens/igor-cover.jpg" alt="Capa do álbum IGOR" width="250">
+    <h1>Camila apresenta: <a href="https://tylerthecreator.com" target="_blank">Tyler, The Creator</a></h1>
+    <p>
+      Conheça um pouco do universo musical de Tyler, The Creator. Seus álbuns exploram amor, identidade, experimentação sonora e muita criatividade.
     </p>
-    <div class="mt-3">
-      <span class="badge bg-dark">Hip-Hop</span>
-      <span class="badge bg-dark">Neo Soul</span>
-      <span class="badge bg-dark">R&B</span>
-      <span class="badge bg-dark">Funk</span>
+    <div>
+      <span>Hip Hop</span>
+      <span>Neo Soul</span>
+      <span>R&B</span>
+      <span>Exclusivo</span>
     </div>
   </header>
 
-  <!-- Seção de Álbuns -->
-  <main class="container my-5">
-    <h2 class="mb-4 text-center">Álbuns em Destaque</h2>
-    <div class="row g-4">
-      <!-- Álbum 1 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <img src="imagens/igor-1.jpg" class="card-img-top" alt="Álbum IGOR">
-          <div class="card-body">
-            <h5 class="card-title">IGOR (2019)</h5>
-            <p class="card-text">Um dos maiores sucessos da carreira de Tyler, vencedor do Grammy de Melhor Álbum de Rap.</p>
-          </div>
-        </div>
+  <main>
+    <section>
+      <h2>Álbum IGOR</h2>
+      <div class="card">
+        <img src="imagens/igor-1.jpg" alt="Faixa EARFQUAKE do álbum IGOR">
+        <h3>EARFQUAKE</h3>
       </div>
-      <!-- Álbum 2 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <img src="imagens/igor-2.jpg" class="card-img-top" alt="Outro álbum">
-          <div class="card-body">
-            <h5 class="card-title">Flower Boy (2017)</h5>
-            <p class="card-text">Um trabalho mais íntimo, explorando identidade, solidão e aceitação.</p>
-          </div>
-        </div>
+      <div class="card">
+        <img src="imagens/igor-2.jpg" alt="Faixa ARE WE STILL FRIENDS? do álbum IGOR">
+        <h3>ARE WE STILL FRIENDS?</h3>
       </div>
-      <!-- Álbum 3 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <img src="imagens/igor-3.jpg" class="card-img-top" alt="Outro álbum">
-          <div class="card-body">
-            <h5 class="card-title">Call Me If You Get Lost (2021)</h5>
-            <p class="card-text">Um álbum cheio de liberdade criativa, misturando rap, soul e até influências de jazz.</p>
-          </div>
-        </div>
+      <div class="card">
+        <img src="imagens/igor-3.jpg" alt="Faixa I THINK do álbum IGOR">
+        <h3>I THINK</h3>
       </div>
-    </div>
+    </section>
   </main>
-
-  <!-- Rodapé -->
-  <footer class="text-center py-4 bg-light mt-5 border-top">
-    <h5 class="fw-bold">Entre em contato</h5>
-    <p><a href="https://github.com/camilasouza" target="_blank" class="text-decoration-none fw-semibold">Meu GitHub</a></p>
-    <p class="text-muted">© 2025 | Página criada por Camila 🎶</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
